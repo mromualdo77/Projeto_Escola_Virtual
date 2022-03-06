@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Code - Contato</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class='color-page'>
+<div class="container-principal" id="topo">
+<header>
+<div class="logo" ><a href="index.html"><img src="img/logo.png" alt="logo site"></a></div>
+<nav>
+<ul>
+<li><a href="index.html">home</a></li>
+<li><a href="clientes.html">clientes</a></li>
+<li><a href="sobre.html">sobre</a></li>
+<li><a href="#topo">contato</a></li>
+</ul>
+</nav>
+</header>
+<div class='img-titulo'><img src="img/contato.png" alt="imagem de contato"></div>
+
+<section id="txt-contato">
+     <form name="meu_form" id="meu_form">
+          <p class="nome">
+               <label for="nome">Nome:</label><br>
+               <input type="text" id="nomeid" placeholder="Ex: Fulano da Silva" required="required" name="nome"/>
+               </p>
+               <p class="fone">
+               <label for="fone">Fone:</label><br>
+               <input type="phone" id="foneid" placeholder="(xx)xxxxx-xxxx" nome="fone" required="required"/>
+               </p>
+               
+          <p>
+               <label for="email">Email:</label><br>
+               <input type="email" id="emailid" placeholder="fulano@mail.com" nome="email" required="required"/>
+               </p>
+               <p>
+               <textarea placeholder="mensagem" required="required"></textarea>
+               </p>
+          <button type="submit" form="meu_form">Enviar</button>
+          </form>
+
+          <div id="conta-data">
+               <h4>Code - Desenvolvimento de sites</h4>
+               <h5><img src="img/locationpng.png" alt="endereço"><br>Avenida Novos Conhecimento nº 2016</h5>
+               <h5><img src="img/telephone-call.png" alt="telefone"><br>+ 55 11 9999-9999</h5>
+               <h5><img src="img/email.png" alt="email"><br>contato@code.com.br</h5>
+               <h5><img src="img/facebook.png" alt="facebook"><br>facebook.com\codedev</h5>
+               <h5><img src="img/instagram.png" alt="instagram"><br>@codedev</h5>
+
+               </div>
+</section>
+</div>
+</body>
+</html>
